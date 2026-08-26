@@ -30,13 +30,13 @@
     "vite": "^6.0.3"
   },
   "author": "",
-  "homepage": "https://YOUR-USERNAME.github.io/personal-resume-template/",
+  "homepage": "https://armin-panahi.github.io/personal-resume-template/",
   "bugs": {
-    "url": "https://github.com/YOUR-USERNAME/personal-resume-template/issues"
+  "url": "https://github.com/armin-panahi/personal-resume-template/issues"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/YOUR-USERNAME/personal-resume-template.git"
-  },
+  "type": "git",
+  "url": "https://github.com/armin-panahi/personal-resume-template.git"
+},
   "funding": null
 }

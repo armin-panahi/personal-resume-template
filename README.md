@@ -27,7 +27,7 @@ A modern, responsive and customizable **Persian-first personal resume & portfoli
 
 After deploying the project, add your GitHub Pages URL here:
 
-**Live Demo:** `https://YOUR-USERNAME.github.io/personal-resume-template/`
+**Live Demo:** `https://armin-panahi.github.io/personal-resume-template/`
 
 ## 📸 Preview
 
@@ -53,7 +53,7 @@ Add screenshots or a short GIF here after the final UI review. A strong preview 
 Click **Fork** on GitHub, then clone your fork:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/personal-resume-template.git
+git clone https://github.com/armin-panahi/personal-resume-template.git
 cd personal-resume-template
 ```
 

@@ -10,7 +10,7 @@ import {
 
 export function renderNavigation() {
   const logo = document.getElementById('nav-logo');
-  logo.innerHTML = `${icons.logo}<span>نام شما.dev</span>`;
+  logo.innerHTML = `${icons.logo}<span>لوگو شما</span>`;
 
   const navLinks = document.getElementById('nav-links');
   const mobileNavLinks = document.getElementById('mobile-nav-links');

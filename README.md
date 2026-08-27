@@ -27,7 +27,7 @@ A modern, responsive and customizable **Persian-first personal resume & portfoli
 
 After deploying the project, add your GitHub Pages URL here:
 
-**Live Demo:** `https://armin-panahi.github.io/personal-resume-template/`
+**Live Demo:** https://armin-panahi.github.io/personal-resume-template/
 
 ## 📸 Preview
 
@@ -148,7 +148,7 @@ The workflow builds the project and deploys the generated `dist` directory to Gi
 5. Your site will be available at:
 
 ```text
-https://YOUR-USERNAME.github.io/personal-resume-template/
+https://armin-panahi.github.io/personal-resume-template/
 ```
 
 ## 📁 Project Structure

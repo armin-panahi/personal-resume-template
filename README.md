@@ -1,226 +1,119 @@
 # Personal Resume Template
 
-A modern, responsive and customizable **Persian-first personal resume & portfolio template** built with **Vite, Tailwind CSS and Vanilla JavaScript**.
+<p align="center">
+  <strong>Modern • Responsive • Customizable • Open Source</strong>
+</p>
 
-> Fork it, replace the sample content, add your own resume, and publish your personal website.
+<p align="center">
+  A modern, responsive and customizable Persian-first resume & portfolio template built with Vite, Tailwind CSS and Vanilla JavaScript.
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Vite](https://img.shields.io/badge/Vite-powered-646CFF.svg)](https://vite.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4.svg)](https://tailwindcss.com/)
+<p align="center">
+  <a href="https://armin-panahi.github.io/personal-resume-template/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Website-black?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/armin-panahi/personal-resume-template/generate">
+    <img src="https://img.shields.io/badge/🚀%20Use%20This%20Template-Create%20Your%20Resume-gold?style=for-the-badge" alt="Use this template">
+  </a>
+  <a href="https://github.com/armin-panahi/personal-resume-template">
+    <img src="https://img.shields.io/github/stars/armin-panahi/personal-resume-template?style=for-the-badge" alt="GitHub Stars">
+  </a>
+</p>
 
-## ✨ Features
+---
 
-- 🇮🇷 Persian-first, RTL layout
-- 📱 Responsive design for mobile, tablet and desktop
-- 🌙 Dark / light theme
-- ✨ Smooth reveal animations
-- ⌨️ Typewriter effect
-- 🧩 Data-driven content architecture
-- 🎨 Easy customization from one main content file
-- 📄 Downloadable resume PDF
-- ⚡ Vite production build
-- 🚀 GitHub Pages deployment with GitHub Actions
-- ♿ Keyboard-friendly interactions and reduced-motion support
-- 🔌 No backend required
+## ✨ Overview
 
-## 🖥️ Live Demo
+**Personal Resume Template** is a modern open-source resume and portfolio website template designed for developers, designers, students, freelancers and professionals.
 
-After deploying the project, add your GitHub Pages URL here:
+The template is built with **Vite, Tailwind CSS and Vanilla JavaScript** and provides a clean, responsive and customizable experience with first-class support for **Persian / RTL websites**.
 
-**Live Demo:** https://armin-panahi.github.io/personal-resume-template/
+### 🎯 The goal
+
+Build your personal resume website in minutes.
+
+Instead of editing dozens of HTML elements, you can customize your profile, experience, skills, projects and social links from a centralized data file.
+
+> **Customize your entire resume from a single data file.**
+
+---
+
+## 🌐 Live Demo
+
+### 👉 [View Live Demo](https://armin-panahi.github.io/personal-resume-template/)
+
+Try the live version before downloading or using the template.
+
+---
+
+## 🚀 Use This Template
+
+Want to create your own resume website?
+
+### 👉 [Use this template](https://github.com/armin-panahi/personal-resume-template/generate)
+
+Create your own repository from this template, customize your information and deploy your personal website.
+
+---
 
 ## 📸 Preview
 
-Add screenshots or a short GIF here after the final UI review. A strong preview image makes the repository much easier to understand when shared on GitHub, LinkedIn and other communities.
+### 🌙 Dark Mode
 
-## 🛠️ Tech Stack
+![Personal Resume Template - Dark Mode](docs/images/dark-mode.png)
 
-- HTML5
-- CSS3
-- JavaScript (ES Modules)
-- Tailwind CSS
-- Vite
+### ☀️ Light Mode
 
-## 🚀 Getting Started
+![Personal Resume Template - Light Mode](docs/images/light-mode.png)
 
-### Requirements
+---
 
-- Node.js 18+ recommended
-- npm 9+ recommended
+## ✨ Features
 
-### 1. Fork the repository
+- 🌐 Persian-first / RTL support
+- 📱 Fully responsive design
+- 🌙 Dark mode
+- ☀️ Light mode
+- 🎨 Modern and clean UI
+- ✨ Smooth animations and interactions
+- ⌨️ Typewriter effect
+- 📄 Resume / CV section
+- 💼 Experience section
+- 🛠 Skills section
+- 🚀 Projects section
+- 📚 Education section
+- 🔗 Social media links
+- 📧 Contact information
+- 📥 Downloadable resume
+- ⚡ Fast Vite development environment
+- 🎨 Tailwind CSS styling
+- 🧩 Vanilla JavaScript
+- 🚀 GitHub Pages ready
+- 🛠 Easy customization
+- 📦 Open source
+- 📜 MIT licensed
 
-Click **Fork** on GitHub, then clone your fork:
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| CSS3 | Styling and layout |
+| JavaScript | Interactions and functionality |
+| Tailwind CSS | Utility-first styling |
+| Vite | Development and production build |
+| GitHub Actions | Automated deployment |
+| GitHub Pages | Hosting |
+
+---
+
+# 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/armin-panahi/personal-resume-template.git
-cd personal-resume-template
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL shown by Vite in your browser.
-
-### 4. Build for production
-
-```bash
-npm run build
-```
-
-### 5. Preview the production build
-
-```bash
-npm run preview
-```
-
-## 🎨 Customization
-
-The main personal content is intentionally kept in one place:
-
-```text
-src/data/content.js
-```
-
-Update your:
-
-- Name
-- Job title
-- Location
-- Email
-- GitHub / LinkedIn
-- Introduction
-- Stats
-- Skills
-- Work experience
-- Projects
-- Typewriter phrases
-
-Then replace the sample resume file:
-
-```text
-src/assets/resume.pdf
-```
-
-### Quick customization flow
-
-```text
-Fork
-  ↓
-Edit src/data/content.js
-  ↓
-Replace src/assets/resume.pdf
-  ↓
-npm install
-  ↓
-npm run dev
-  ↓
-npm run build
-  ↓
-Deploy
-```
-
-## 🌐 Deploy to GitHub Pages
-
-This repository includes a GitHub Actions workflow at:
-
-```text
-.github/workflows/deploy.yml
-```
-
-The workflow builds the project and deploys the generated `dist` directory to GitHub Pages whenever changes are pushed to `main`.
-
-### One-time GitHub setup
-
-1. Push the project to a **public GitHub repository** named `personal-resume-template`.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, select **GitHub Actions** if GitHub asks for a publishing source.
-4. Push to `main` and open the **Actions** tab to watch the deployment.
-5. Your site will be available at:
-
-```text
-https://armin-panahi.github.io/personal-resume-template/
-```
-
-## 📁 Project Structure
-
-```text
-personal-resume-template/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   └── feature_request.md
-│   ├── workflows/
-│   │   └── deploy.yml
-│   └── pull_request_template.md
-├── src/
-│   ├── assets/
-│   │   ├── fonts/
-│   │   └── resume.pdf
-│   ├── data/
-│   │   └── content.js
-│   ├── sections/
-│   │   └── render.js
-│   ├── icons.js
-│   ├── main.js
-│   └── style.css
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── SECURITY.md
-├── index.html
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-```
-
-## 🤝 Contributing
-
-Contributions are welcome. Before opening a pull request, please read [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Useful contribution areas include:
-
-- Accessibility improvements
-- Responsive UI improvements
-- Performance improvements
-- Bug fixes
-- Documentation improvements
-- New optional template features
-
-## 🐛 Issues & Feature Requests
-
-Found a bug or have an idea? Use the repository's GitHub Issue Templates so reports remain easy to understand and reproduce.
-
-## 🔐 Security
-
-Please do not publish sensitive security issues in public GitHub Issues. See [SECURITY.md](SECURITY.md) for the reporting process.
-
-## ⭐ Support the Project
-
-If this template helps you create your personal website:
-
-- ⭐ Star the repository
-- 🍴 Fork it
-- 🐛 Report bugs
-- 💡 Suggest improvements
-- 🔧 Open a pull request
-- 📣 Share it with other developers
-
-Every contribution helps the project become more useful to the community.
-
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
